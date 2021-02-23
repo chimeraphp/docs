@@ -1,0 +1,19 @@
+site_name: Chimera
+theme: readthedocs
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - toc:
+      permalink: True
+
+nav:
+  - Intro:
+      - 'index.md'
+      - 'intro/installation.md'
+  - Architecture:
+      - 'architecture/overview.md'
+  - Getting started:
+      - 'getting-started/application-bootstrapping.md'
+  - Guides:
+      - 'guides/upgrading.md'
